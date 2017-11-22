@@ -6,5 +6,5 @@ a = 0
 for word in splited_text:
     if len(word) >= 10:
         a += 1
-print("Доля длинных слов: ", a / all_words)
+print("Доля длинных слов: ", (a / all_words)*100, "%")
 print("End.")
